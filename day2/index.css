@@ -793,6 +793,9 @@
 #footerA>a:hover{
     color:rgb(31, 178, 31);
 }
+#TotalPage{
+  overflow: hidden;
+}
 
 
 
