@@ -1,0 +1,90 @@
+#main{
+    background-color: rgb(236, 240, 241);
+    width: 100vw;
+    height: 100vh;
+}
+*{
+    font-family: sans-serif;
+}
+
+#imageMain{
+    position: relative;
+    left:75px;
+    top:40px;
+    width:100px;
+    height:50px;
+}
+form{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    height: auto;
+    width:550px;
+    padding:50px;
+    position: fixed;
+    left:33vw;
+    top:20vh;
+    background-color: #fff;
+    border-radius: 15px;
+}
+#div11{
+    display: flex;
+    column-gap: 30px;
+    font-size:18px;
+    margin-bottom:25px;
+}
+#div1>p{
+    width:300px;
+}
+#div>h3{
+    width:200px;
+}
+label{
+    display: block;
+    margin-bottom:10px;
+}
+input[type="email"]{
+    width:545px;
+    height: 45px;
+    border-radius:5px;
+    border: 0.5px solid rgb(223, 221, 221);
+
+}
+#check{
+   /* outline:1px solid rgb(0, 204, 61); */
+   width:20px;
+}
+
+form>div>div>div>p{
+    display: inline;
+}
+form>div>div>div{
+    margin:20px 0px 25px 0px;
+}
+form>div>div>div>p>a{
+    text-decoration: none;
+    color:rgb(89, 152, 189);
+    
+}
+form>div>div>div>p>a:hover{
+    text-decoration: underline;
+}
+input[type="submit"]{
+    padding:14.7px 245px;
+    font-size:16px;
+    color: #fff;
+    background-color: rgb(209, 215, 220);
+    border: none;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+#last{
+    text-align: center;
+    font-size: 17px;
+    
+}
+#last>p>a{
+    text-decoration: none;
+    color:rgb(89, 152, 189)
+}
+#last>p>a:hover{
+    text-decoration: underline;
+}
